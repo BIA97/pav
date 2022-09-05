@@ -1,0 +1,56 @@
+.footer {
+    padding: 15px 0;
+    background-color: black;
+    &__container {
+        padding: 0 calc(10px + 100 * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        
+    }
+
+    &__title {
+        font-family: "Sora";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    &__subtitle {
+        font-family: "Sora";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+
+    &__logo {}
+
+    &__list {
+        display: flex;
+        gap: 48px;
+        padding: 10px 0;
+        justify-content: space-between;
+    }
+
+    &__item {}
+
+    &__link {}
+
+    &__img {
+        height: 45px;
+    }
+}

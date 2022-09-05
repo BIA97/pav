@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Sora:100,200,300,regular,500,600,700,800);
+@import"null";
+@import"header";
+@import"main";
+@import"footer";
+// @import"mixins";
+.wrapper{
+    min-height: 100%;
+    background-color: #252323;
+    overflow: hidden;
+
+}
+@media (min-width: 992px) {
+    [class*="__container"] {
+        // max-width: calc(992px + 587 * ((100vw - 992px) / (1579 - 992)));
+        // margin: 0px auto;
+        // padding: 0 calc(15px + 5 * ((100vw - 992px) / (1577 - 992)));
+        
+    }
+}
