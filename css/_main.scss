@@ -152,7 +152,7 @@ padding-top: 100px;
     &__block {
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 32px;  
     }
 
     &__form {
@@ -277,29 +277,90 @@ padding-top: 100px;
     }
 }
 @media (max-width: 767.98px){
-.answer {
+.main {
+
+        &__container {}
+
+        &__main {}
+
+        &__title {}
+
+        &__subtitle {}
+    }
+
+    .main-button {
+
+        &__button {}
+
+        &__link-button {}
+    }
+
+    .works {
+
+        &__text {}
+
+        &__title {}
+
+        &__subtitle {}
+    }
+
+    .cards {
+
+        &__card {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__image {}
+
+        &__img {
+            width: 100%;
+        }
+
+        &__block {}
+
+        &__title {}
+
+        &__text {}
+    }
+
+    .contact {
+
+        &__container {}
+
+        &__title {}
+
+        &__text {}
+    }
+
+    .answer {
         flex-wrap: wrap;
+        &__block {
+            order: 2;
+            flex: 1 1 50%;
+        }
+
+        &__form {
+            width: 100%;
+        }
+
+        &__name {}
+
+        &__tel {}
+
+        &__question {}
+
+        &__block-button {}
+
+        &__button {}
     }
 
     .description {
         order: 1;
+        &__block {}
+
+        &__title {}
+
+        &__text {}
     }
-
-    .answer__block {
-        order: 2;
-    }
-.menu__lists {
-    justify-content: center;
 }
-
-.cards__card {
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.answer__form {
-    max-width: 589px;
-}
-.cards__img{
-    width: 100%;
-}}
