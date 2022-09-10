@@ -412,6 +412,9 @@ body {
   .cards__img {
     width: 100%;
   }
+  .contact {
+    padding: 100px 0;
+  }
   .answer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
